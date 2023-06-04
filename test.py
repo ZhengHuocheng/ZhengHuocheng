@@ -1,7 +1,7 @@
 import streamlit as st
 from simpletransformers.question_answering import QuestionAnsweringModel, QuestionAnsweringArgs
 # 加载问答模型
-model = QuestionAnsweringModel("bert", "./QA_model/QA",use_cuda=False)
+model = QuestionAnsweringModel("bert", "https://huggingface.co/Pluviophile6/bert_QA/tree/main/QA_model/QA",use_cuda=False)
 st.title("问答系统")
 st.write("输入一个问题和一段文本，获取问题的答案")
 # 用户输入问题和文本
