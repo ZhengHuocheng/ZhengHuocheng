@@ -3,7 +3,7 @@ from docx.shared import Pt, Inches
 from docx.oxml.ns import qn
 from docx.oxml.ns import nsdecls
 from docx.oxml import parse_xml
-import install streamlit as st
+import streamlit as st
 # 定义格式检查规则
 RULES = {
     '页面大小': ('Letter', 21, 29.7),  # 页面大小（纸张类型、宽度、高度cm）
